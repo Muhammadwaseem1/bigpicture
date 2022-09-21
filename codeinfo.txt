@@ -1,3 +1,3 @@
 test 
 testing branch rules
-check cred
+check cred testing
