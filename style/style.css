@@ -1,0 +1,385 @@
+header{
+    margin: auto;
+    width:60%;
+    
+    padding: 10px;
+}
+.navbar1 ul {
+  list-style-type: none;
+  
+  padding: 0;
+  display: flex;
+  float: right;
+}
+.navbar1 ul li {
+  margin-left: 30px;
+}
+.navbar1 ul li a {
+  text-decoration: none;
+  color: red;
+}
+.navbar2 ul {
+  position: absolute;
+  list-style-type: none;
+ 
+  margin-top: 3em;
+  padding: 0;
+  display: flex;
+}
+.navbar2 ul li {
+  margin-right: 30px;
+}
+.navbar2 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.stickers{
+    position: relative;
+    margin-top: 5em;
+    height: max-content;
+
+}
+.stickers img {
+    height: 150px;
+    width: 250px;;
+
+}
+.image1{
+    margin-right: 8em;
+    margin-left: 2em;
+}
+.section1{
+    position: relative;
+overflow: hidden;
+    width: 100%;
+    background: rgb(192, 202, 204);
+    text-align: center;
+    padding-top: 1em;;
+}
+
+.top h3{
+   
+    font-size: 30px;
+}
+.top p{
+    color: rgb(102, 39, 3);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -30px;;
+}
+.main{
+    display: flex;
+    margin-top: 2em;;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.sec2img{
+    height: 325px;
+}
+.textsec{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: -30px;;
+}
+.heading1sec2{
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(231, 168, 96);
+}
+.heading2sec2{
+    margin-top: -45px;
+    font-size: 25px;
+    font-weight:bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 191, 231);
+}
+.textsec p{
+margin-top: -1em;;
+}
+.sec2span2{
+    color: rgb(102, 39, 3);
+    font-style: italic;
+}
+.sec2span3{
+    color: rgb(59, 191, 231);
+    padding-bottom: 2em;;
+}
+.textsecbtn{
+    text-decoration: none;
+   margin-top: 2em;
+   
+    background-color: rgb(231, 168, 96);
+    color: rgb(20, 19, 19);
+    border:none; 
+    border-radius:20px; 
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.section2{
+    position: relative;
+    
+    width: 100%;
+  
+    text-align: center;
+}
+.sec2span21{
+    color: rgb(102, 39, 3);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:25%;
+    font-style: italic;
+}
+.textsec2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  
+}
+.sec2img2{
+    height: 230px;
+    margin-right: -250px;
+    margin-left: 200px;;
+    padding-bottom: 5em;;
+}
+.section3{
+    position: relative;
+    background-image: url("../Images/sec3bg.png");
+    background-position: center center;
+width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+}
+.sec3head2{
+  color:rgb(92, 43, 14);
+}
+.sec3txt{
+    
+
+position: relative;
+align-self: center;
+margin-top: 4em;
+margin-left: auto;
+margin-right: auto;
+}
+.sec3list li{
+    list-style-type: none;
+    font-size: 25px;
+}
+.first{
+    font-size: 25px;
+    color:rgb(92, 43, 14);
+
+}
+.parentsecsec3{
+    text-align: center;
+background-color: rgb(131, 161, 114);
+padding-bottom: 35px;
+width: 100%;
+   margin-left: auto;
+    margin-right: auto;
+}
+.sec3bottom{
+    height: 200px;
+width: 250px;
+
+
+
+}
+.sec3footer{
+    display: flex;
+  margin-top: 2em;
+    margin-left: 28%;
+    margin-right: auto;
+}
+
+.sec3bottomtxt{
+    margin-top: 2em;
+}
+.ddogsec3{
+    margin-top: -4em;
+    height:180px;
+    margin-left: 3em;;
+}
+.collage{
+    position: relative;
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 50px
+  }
+  
+  .collage h3{
+    color:rgb(112, 84, 5);
+    margin-top: -1em;
+    font-style: italic;
+  
+  }
+  
+  .webminar{
+    text-decoration: none;
+    background-color: rgb(156, 209, 145);
+    color: rgb(20, 19, 19);
+    border-radius:20px; 
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  .checking{
+    position: relative;
+    text-align: center;
+  }
+  .tour{
+    position: relative;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    padding: 50px;
+    margin-left: 15em;
+    margin-right: 15em;
+  
+    background-color: rgb(250, 161, 77);
+  }
+  .column {
+    flex: 50%; 
+    text-align: center;
+    color:white;
+  }
+  .column .mark{
+    writing-mode: sideways-lr;
+    padding-left: 114px;
+    font-size: 31px;
+    font-weight: bold;
+    color:rgb(116, 57, 15) ;
+    position: absolute;
+  }
+  .tour .para{
+    color: rgb(42, 42, 236);
+  }
+  .column p {
+    font-size: x-small;
+    margin-left: 22em;
+    margin-top: 2.5em;
+    color:rgb(121, 68, 25);
+    position: absolute;
+  }
+  .tour .quick {
+    color:rgb(112, 84, 5);
+    margin-top: -1em;
+    font-style: italic;
+  }
+  
+  .column .number{
+    color: white;
+    margin-top: 10px;
+    font-size: 200px;
+    position: absolute;
+    font-weight: bolder;
+    overflow: hidden;
+    box-shadow: #000;
+  }
+  .orange{
+    color: rgb(197, 91, 5)
+  }
+  .checking h3{
+    color:rgb(112, 84, 5);
+    margin-top: -1em;
+    font-style: italic;
+  
+  }
+  .checking h4{
+    color:rgb(112, 84, 5);
+    margin-top: -0.8em;
+    font-size: 20px;
+    font-weight: 20;
+    font-style: italic;
+  }
+
+  .imagefooter{
+    position: absolute;
+height: 145px;
+z-index: 2;
+margin-top: -6.5em;;
+  }
+  .row2{
+    text-align: center;
+    padding-bottom: 2em;
+    margin-top: -2em;
+    color: white;
+    background-color: rgb(238, 127, 0);
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+  .sec3list  {
+    display: inline-block; 
+    text-align: left; 
+  }
+  
+  .sec3list li::before{
+  
+ color: rgb(231, 140, 21);
+    content: "⮟";
+}
+  @media screen and (max-width: 480px) {
+    header{
+      margin: auto;
+      width:80%;
+      
+      padding: 10px;
+  }
+    .main{
+   
+      text-align: center;
+      display: flex;
+      margin-top: 2em;;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      flex-direction:column;
+  }
+  .textsec{
+text-align: center;
+margin-left: -10%;
+
+    width: 600px;
+    margin-bottom: 5em;;
+  
+}
+header{
+  text-align: center;
+}
+
+.stickers{
+  text-align: center;
+}
+.image1{
+margin-right: 0;
+}
+.navbar1 ul {
+  list-style-type: none;
+  
+  padding: 0;
+  display: flex;
+  
+}
+.navbar2 ul {
+  list-style-type: none;
+  
+  padding: 0;
+  display: flex;
+  
+}
+  }
